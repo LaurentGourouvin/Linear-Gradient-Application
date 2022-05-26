@@ -1,0 +1,7 @@
+.Gradient {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #eee;
+    margin: 2rem auto;
+    border-radius: .5rem;
+}

@@ -1,5 +1,5 @@
 // Import Modules
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 // Import Own Modules
 import { randomHexColor } from '../../utils/randomColor'
@@ -14,11 +14,6 @@ function App(){
     const [colorLeft, setColorLeft] = useState(randomHexColor());
     const [colorRight, setColorRight] = useState(randomHexColor());
 
-    useEffect(() => {
-        console.log("mise à jour du composant")
-        console.log("left color: ", colorLeft)
-        console.log("right color: ", colorRight)
-    })
     return (
         <div className='App'>
             <p>Application Gradient</p>

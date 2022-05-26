@@ -17,6 +17,8 @@ function App(){
     return (
         <div className='App'>
             <p>Application Gradient</p>
+            <p>Petite application en REACT permettant de créer des petits dégradés CSS.</p>
+            <p>Objectif: s'entrainer à l'utilisation des props et modification du state.</p>
             <Buttons setColorLeft={setColorLeft} setColorRight={setColorRight}/>
             <Gradient colorLeft={colorLeft} colorRight={colorRight}/>
             <Colors colorLeft={colorLeft} colorRight={colorRight}/>
